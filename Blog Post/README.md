@@ -51,35 +51,50 @@ The 3 surprising facts are:
 
 ## CRISP DM Outline
 
-### Business Understanding
+### Research Understanding
 
-nkregnlng
+Gain a brief understanding of what most recently global socioeconomic data reveals about school expenditure and enrollment, GDP per capita, and life expectancy. Three key topics are explored: how GDP per capita is changinf from year to year in poor countries in comparison to rich countries, the relationship that edcuation expenditure and school enrollment has on GDP per capita and life expectancy, and how to countries cluster together for GDP per capita and life expectancy.
 
 ### Data Understanding
 
-ndfkgndf
+All data for this project was sourced from the World Bank. Their data repository can be found here: https://data.worldbank.org/
+
+The data set used for the analyses contains 217 countries, and the following features.
+
+    - 'SP.DYN.LE00.IN' : 'Life expectancy at birth, total (years)',
+    - 'SE.ENR.PRSC.FM.ZS' : 'School enrollment, primary and secondary (gross), gender parity index (GPI)',
+    - 'NY.GDP.MKTP.CD' : 'GDP (current US$)',
+    - 'NY.GDP.PCAP.CD' : 'GDP per capita (current US$)',
+    - 'SE.XPD.TOTL.GD.ZS' : 'Government expenditure on education as percent of GDP',
+    - 'SE.ENR.PRIM.FM.ZS' : 'Gross enrollment ratio, primary, gender parity index (GPI)'
+
+Each feature is reported for the years 2010 to 2015. The GDP per capita is used as a proxy for poverty.
 
 ### Prepare Data
 
-fdgn
+Data was prepared by removing features that were not used in the analysis and removing columns that contained no information. The data set was inspected for missing values, which is quite commmon for data coming from an open data source such as World Bank data. Not many additional feature transformations or feautre engineering was required for this project.
+
+Data was split into subsets of the 12 poorest countries and 12 richest countries. This was done to stream line the analysis, as well as to demonstrate how large gloabl discrepancies can be. 
 
 ### Data Modeling
 
 #### Fact 1
 
-dfgdfg
+This section provides a simple visual inspection of GDP per Capita from 2010 to 2015. The rate of poverty in all countries has been stable over the years 2010 to 2015 for both the 12 poorest and 12 richest countries. The GDP per capita is reported in USD in adjusted to the 2021 price level.
 
 #### Fact 2
 
-rkeglr
+This section calculates the correlation between a countries' education expenditure and school enrollment rates, and GDP per capita and life expectancy. The lag of school expenditure and enrollment are used in the correlations, becuase the effects of spending and enrollment in 2015 will not be seen in 2015. One MAJOR caveat is that we may not be able to see a reliable relationship with a 5 year lag.
 
 #### Fact 3
 
-kedfjler
+This section clusters countries by GDP per capita and life expectancy for the years 2010 to 2015. In order to successfully run the clustering algorithm, missing data needs to be dealt with. Missing values were imputed using sklearn's KNN Imputer. The imputer uses 2 nearest neighbors (in this case, neighbors are countries) to calculate the mean value of a either GDP per capita or life expectancy. Two nearest neighbors were chosen to best resemble the uniqueness of individual countries. Not all countries should be modeled the same, therefore using 2 nearest neighbors encourages the algorithm to keep some variability within countries. If I were to hypothetically use 10 nearest neighbors, I would be making the assumption that countries are more similar in GDP per capita and life expectancy, than using 2 nearest neighbors.
+
+A centroid clustering algorithm is used to cluster the various countries into their respective groups. Results of the clustering was displayed through a heatmap.
 
 ### Evaluation
 
-fdgdfg
+This analysis barely brushed the surface of the global poverty and life expectancy landscape, but it does leverage real world data to show that the gloabl social conditions are radically different between the wealthiest and most impoverished countries.  
 
 ## Acknowledgements
 
