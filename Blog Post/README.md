@@ -29,7 +29,7 @@ from sklearn.impute import KNNImputer
 
 ## Motivation for Project
 
-I continually find myself gravitating to global poverty and socio-economic measures whenever posed with an open ended research project. Since I like to stay on brand, I decided to take a Data Scientists approach to interrogating the most current data on global poverty (GDP per capita) and life expectancy.
+I continually find myself gravitating to global poverty and other socio-economic measures whenever posed with an open ended research project. As I like to stay on brand, I decided to take a Data Scientists approach to interrogating the most current data on global poverty (GDP per capita) and life expectancy.
 The analysis compares the 12 poorest countries to the 12 richest countries to effectively show the reader how dramatically different the metrics are for each group.
 At this point it is almost tribal knowledge that global income disparity is massive - this analysis uses data to prove that the differences between rich and poor countries is far more than a simple income disparity story.
 
@@ -48,6 +48,38 @@ The 3 surprising facts are:
     
 3) Global income disparity is as bad as people make it out to be… possibly worse.
     Majority of the world lives on much less than $25,000 USD per capita per year. 
+
+## CRISP DM Outline
+
+### Business Understanding
+
+nkregnlng
+
+### Data Understanding
+
+ndfkgndf
+
+### Prepare Data
+
+fdgn
+
+### Data Modeling
+
+#### Fact 1
+
+dfgdfg
+
+#### Fact 2
+
+rkeglr
+
+#### Fact 3
+
+kedfjler
+
+### Evaluation
+
+fdgdfg
 
 ## Acknowledgements
 
