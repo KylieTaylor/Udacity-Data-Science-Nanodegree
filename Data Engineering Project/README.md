@@ -1,7 +1,7 @@
 # Disaster Response Pipeline Project
 
 ## Kylie Taylor
-## May 2021
+### May 2021
 
 ### Introduction
 
@@ -9,9 +9,9 @@ This project was completed for the Data Engineering course of the Udacity Data S
 
 ### Data
 
-All data for this project was provided by [Figure Eight](https://appen.com/) and can be found in the [Data]() folder.
+All data for this project was provided by [Figure Eight](https://appen.com/) and can be found in the [Data](https://github.com/KylieTaylor/Udacity-Data-Science-Nanodegree/tree/main/Data%20Engineering%20Project/Data) folder. The raw data files include a .csv with message classification lables and another .csv with the corresponding messages. The data files were cleaned and merged to create a masterfile. This master file is saved as a SQL database object, called   `DisasterResponse.db`.
 
-### Methods
+### Model
 
 
 ### Instructions:
