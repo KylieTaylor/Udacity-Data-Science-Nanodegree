@@ -39,3 +39,4 @@ https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.tex
 https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html
 https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 https://github.com/Blostrupsen/disaster_response_pipelines
+https://github.com/xseibel/udacity_ds_p2
