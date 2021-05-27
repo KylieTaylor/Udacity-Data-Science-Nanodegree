@@ -13,6 +13,8 @@ All data for this project was provided by [Figure Eight](https://appen.com/) and
 
 ### Model
 
+A model pipeline was used to train the final model to classifiy message categories. The pipeline vectorized the messsages using sklearn's [CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html), transformed the vectorized data using a [TfidfTransformer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html), then trained a [RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) that classified messages into over 20 categories. A hyperparameter grid search using 3 fold cross validation was used to explore various random forest models and select the best performing. The best random forest model was trained using 1 minimum sample per leaf, 5 minimum splits, and 50 estimators, with no maximum depth. The precision, recall, f1-score and support are reported for the model.
+
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
@@ -32,4 +34,8 @@ All data for this project was provided by [Figure Eight](https://appen.com/) and
     `https://SPACEID-3001.SPACEDOMAIN`
 
 
-
+### References
+https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html
+https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+https://github.com/Blostrupsen/disaster_response_pipelines
