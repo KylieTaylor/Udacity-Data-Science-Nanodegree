@@ -19,33 +19,20 @@ A model pipeline was used to train the final model to classifiy message categori
 
 The following libararies and packages were used throughout the project:
 
-    `import pandas as pd`
-    
-    `import numpy as np`
-    
-    `from sqlalchemy import create_engine`
-    
-    `import nltk`
-    
-    `from sklearn.pipeline import Pipeline`
-    
-    `from sklearn.model_selection import train_test_split, GridSearchCV`
-    
-    `from sklearn.metrics import classification_report, confusion_matrix, fbeta_score, scorer, f1_score, accuracy_score`
-    
-    `from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier, AdaBoostClassifier`
-    
-    `from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer, HashingVectorizer`
-    
-    `from sklearn.multioutput import MultiOutputClassifier`
-   
-    `import pickle`
-    
-    `from typing import Tuple, List`
-    
-    `nltk.download('punkt')`
-    
-    `nltk.download('wordnet')`
+    import pandas as pd    
+    import numpy as np
+    from sqlalchemy import create_engine
+    import nltk
+    from sklearn.pipeline import Pipeline    
+    from sklearn.model_selection import train_test_split, GridSearchCV
+    from sklearn.metrics import classification_report, confusion_matrix, fbeta_score, scorer, f1_score, accuracy_score
+    from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier, AdaBoostClassifier
+    from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer, HashingVectorizer
+    from sklearn.multioutput import MultiOutputClassifier
+    import pickle
+    from typing import Tuple, List
+    nltk.download('punkt')
+    nltk.download('wordnet')
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
