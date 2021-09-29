@@ -45,7 +45,7 @@ Data labelling was performed by industry experts. That portion of the project is
 
 #### Results
 
-The "winning" model is the Gradient Boosting Classifier - as the out of sample predictions achieved the highest cummulative scores. With 80% precision, 78% accuracy, and 85% specificity, this model is the best at capturing true positives and true negatives compared to all other models. In context of this use case, detecting true positives is preffered over detecting false positives. 
+The winning model is the Gradient Boosting Classifier - as the out of sample predictions achieved the highest cummulative scores. With 80% precision, 78% accuracy, and 85% specificity, this model is the best at capturing true positives and true negatives compared to all other models. In context of this use case, detecting true positives is preffered over detecting false positives. 
 
 ![image](https://user-images.githubusercontent.com/47127996/135311654-21b0d84b-ae11-47e1-8f9c-72fb620b2fdc.png)
 
