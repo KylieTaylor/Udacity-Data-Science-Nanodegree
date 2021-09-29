@@ -1,4 +1,4 @@
-# Udacity Data Science Nanodegree
+# Udacity Data Science Nanodegree Capstone Project
 ## How to Create a ML Replica of an Engineer - A Case Study
 
 
