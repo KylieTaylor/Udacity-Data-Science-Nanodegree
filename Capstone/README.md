@@ -16,15 +16,16 @@ import os
 from tabulate import tabulate
 from datetime import datetime
 from sklearn.metrics import make_scorer, precision_score, accuracy_score, confusion_matrix
-from sklearn.linear_model import LogisticRegression
-from sklearn.pipeline import make_pipeline, Pipeline
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, PolynomialFeatures
+from sklearn.decomposition import PCA
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier, GradientBoostingClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.pipeline import make_pipeline, Pipeline
 import sweetviz as sv
 ```
 
-Access to Google Colab and Google Drive for data storage is also required for this project.
+Access to Google Colab and Google Drive for data storage is required for this project.
 
 #### Motivation
 
@@ -39,7 +40,7 @@ Data labelling was performed by industry experts. That portion of the project is
 
 [Data](https://github.com/KylieTaylor/Udacity-Data-Science-Nanodegree/tree/main/Capstone/data) - folder containing all data used to train, validate, and test models
 
-[Capstone.ipynb]() - Notebook containing the data processing, EDA, feature engineering, model training, and model comparisons and evaluation. Connects directly to a personal Google Drive to read in data, since it was an easy integration into Google Colab (platform used to train models).
+[Capstone.ipynb](https://github.com/KylieTaylor/Udacity-Data-Science-Nanodegree/blob/main/Capstone/Capstone.ipynb) - Notebook containing the data processing, EDA, feature engineering, model training, and model comparisons and evaluation. Connects directly to a personal Google Drive to read in data, since it was an easy integration into Google Colab (platform used to train models).
 
 
 #### Results
