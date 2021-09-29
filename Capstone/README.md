@@ -37,28 +37,29 @@ Data labelling was performed by industry experts. That portion of the project is
 
 #### Repository Description
 
-Data - folder containing all data used to train, validate, and test models
+[Data](https://github.com/KylieTaylor/Udacity-Data-Science-Nanodegree/tree/main/Capstone/data) - folder containing all data used to train, validate, and test models
 
-Capstone.ipynb - Notebook containing the data processing, EDA, feature engineering, model training, and model comparisons and evaluation. Connects directly to a personal Google Drive to read in data, since it was an easy integration into Google Colab (platform used to train models).
+[Capstone.ipynb]() - Notebook containing the data processing, EDA, feature engineering, model training, and model comparisons and evaluation. Connects directly to a personal Google Drive to read in data, since it was an easy integration into Google Colab (platform used to train models).
 
 
 #### Results
 
-![image](https://user-images.githubusercontent.com/47127996/135311654-21b0d84b-ae11-47e1-8f9c-72fb620b2fdc.png)
+The "winning" model is the Gradient Boosting Classifier - as the out of sample predictions achieved the highest cummulative scores. With 80% precision, 78% accuracy, and 85% specificity, this model is the best at capturing true positives and true negatives compared to all other models. In context of this use case, detecting true positives is preffered over detecting false positives. 
 
+![image](https://user-images.githubusercontent.com/47127996/135311654-21b0d84b-ae11-47e1-8f9c-72fb620b2fdc.png)
 
 
 #### Acknowledgements
 
-Scikit Learn preprocessing : https://scikit-learn.org/stable/modules/preprocessing.html
+[Scikit Learn preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)
 
-Scikit Learn Classification models: https://scikit-learn.org/stable/supervised_learning.html#supervised-learning
+[Scikit Learn Classification models](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
-Scikit Learn Pipelining: https://scikit-learn.org/stable/tutorial/statistical_inference/putting_together.html
+[Scikit Learn Pipelining](https://scikit-learn.org/stable/tutorial/statistical_inference/putting_together.html)
 
-Scikit Learn Scoring: https://scikit-learn.org/stable/modules/model_evaluation.html
+[Scikit Learn Scoring](https://scikit-learn.org/stable/modules/model_evaluation.html)
 
-Sweetviz: https://www.kaggle.com/ahmettezcantekin/sweetviz-simple-and-quick-eda
+[Sweetviz](https://www.kaggle.com/ahmettezcantekin/sweetviz-simple-and-quick-eda)
 
 
 
