@@ -5,6 +5,8 @@
 ### Kylie Taylor
 ### September, 2021
 
+[Medium Blog Post](https://kyliewtaylor.medium.com/how-to-create-a-ml-replica-of-an-engineer-a-case-study-301690fa096b)
+
 #### Prerequisites
 ```
 from google.colab import drive
@@ -38,7 +40,7 @@ Data labelling was performed by industry experts. That portion of the project is
 
 #### Repository Description
 
-[Data](https://github.com/KylieTaylor/Udacity-Data-Science-Nanodegree/tree/main/Capstone/data) - folder containing all data used to train, validate, and test models
+[Data](https://github.com/KylieTaylor/Udacity-Data-Science-Nanodegree/tree/main/Capstone/data) - folder containing all data used to train, validate, and test models.
 
 [Capstone.ipynb](https://github.com/KylieTaylor/Udacity-Data-Science-Nanodegree/blob/main/Capstone/Capstone.ipynb) - Notebook containing the data processing, EDA, feature engineering, model training, and model comparisons and evaluation. Connects directly to a personal Google Drive to read in data, since it was an easy integration into Google Colab (platform used to train models).
 
