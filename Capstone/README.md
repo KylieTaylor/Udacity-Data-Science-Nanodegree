@@ -45,9 +45,9 @@ Data labelling was performed by industry experts. That portion of the project is
 
 #### Results
 
-The winning model is the Gradient Boosting Classifier - as the out of sample predictions achieved the highest cummulative scores. With 80% precision, 78% accuracy, and 85% specificity, this model is the best at capturing true positives and true negatives compared to all other models. In context of this use case, detecting true positives is preffered over detecting false positives. 
+The winning model is the ADA Boost Classifier - as the out of sample predictions achieved the highest cummulative scores. With 76% precision, 78% accuracy, and 91% specificity, this model is the best at capturing true positives and true negatives compared to all other models. In context of this use case, detecting true positives is preffered over detecting false positives. The great news is that all models outpreform the null model (always guessing the machine is in the desired state), which has a precision and accuracy of about 60%.
 
-![image](https://user-images.githubusercontent.com/47127996/135311654-21b0d84b-ae11-47e1-8f9c-72fb620b2fdc.png)
+![image](https://user-images.githubusercontent.com/47127996/135364237-27c41735-024c-4678-ac2f-48fac509b4d9.png)
 
 
 #### Acknowledgements
